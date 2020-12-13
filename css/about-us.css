@@ -1,0 +1,109 @@
+.banner{
+	font-size: 0;
+	width: 100%;
+	height: 300px;
+	background:url(../img/ABUIABAEGAAgzrbg3gUokPafqgMwgA84rAI.png) no-repeat center center;
+	background-size: cover;
+}
+.mid{
+	margin:0 auto;
+}
+.mid .container{
+	width:1200px;
+	height:900px;
+	position:relative;
+	overflow: hidden;
+}
+.mid .container .mid-con{
+	width:1200px;
+	height:900px;
+	position:absolute;
+	left:1200px;
+}
+.mid .container .name{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin:50px 0;
+}
+.mid .container p{
+	text-indent: 2em;
+	font-size: 12px;
+	line-height: 30px;
+	color:#666666;
+}
+.mid .container p:nth-child(2){
+	margin-bottom: 50px;
+}
+/*服务优势*/
+.server{
+	padding-top:77px;
+	padding-bottom:80px;
+}
+.server .ser-text{
+	width:150px;
+	height:85px;
+	margin:0 auto;
+	overflow: hidden;
+	position:relative;
+}
+.server .ser-title{
+	text-align: center;
+	margin:0 auto;
+	position:absolute;
+	top:85px;
+}
+.server .ser-title h5{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.server .ser-title p{
+	font-size: 12px;
+	color:#9fa5ac;
+}
+.server .content{
+	display: flex;
+}
+.server .content .item{
+	position:relative;
+	text-align: center;
+	width:33.3%;
+	margin-top: 80px;
+}
+.server .content .item .img{
+	width:116px;
+	height:116px;
+	background: url(../img/AD0Iu_ufBxAEGAAg-trLzwUomMaX2QIwdDh0.png) no-repeat center center;
+	position:relative;
+	left:0;
+	right:0;
+	margin: 0 auto;
+}
+.server .content .item .img img{
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.server .content .item p{
+	font-size: 12px;
+	color:#ccc;
+}
+.server .content .item p:nth-child(2){
+	font-size: 16px;
+	color:#000;
+}
+.news{
+	width: 100%;
+	height:450px;
+	position:relative;
+	background: url(../img/AD0Iu_ufBxACGAAg-NrLzwUo6eX3rQIwgA84wgM.jpg) no-repeat center center;
+}
+.news .box{
+	position:absolute;
+	bottom:20px;
+	font-size:24px;
+	color:#fff;
+}
